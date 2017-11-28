@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/app.scss %}">
 </head>
 <body>
+<!-- Container en row toegvoegen in default > per pagina beginnen met col -->
+{% include navigation.html %}
 {{ content }}
 {% include footer.html %}
+
 {% include scripts-bottom.html %}
 </body>
 </html>
