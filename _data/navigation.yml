@@ -1,18 +1,12 @@
-- title: About
-  url: /about.html
-- title: Team
-  url: /team.html
-- title: Contact
+- title: home
+  url: /index.html
+- title: wat is Submyrine
+  url: /watissubmyrine.html
+- title: plan je route
+  url: /planjeroute.html
+- title: contact
   url: /contact.html
-- title: Store
-  url: /store.html
-- title: Support
-  url: /support.html
-  sublinks:
-    - title: FAQ
-      url: /faq.html
-    - title: Documentation
-      url: /documentation.html
-    - title: separator
-    - title: Customer Support
-      url: /customer-support.html # permalinken per pagina
+- title: verkoopsvoorwaarden
+  url: /verkoopsvoorwaarden.html
+- title: partners
+  url: /partners.html
