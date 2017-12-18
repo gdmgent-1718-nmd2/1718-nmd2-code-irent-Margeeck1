@@ -6,6 +6,9 @@
 
 //
 // Color system
+$orange:  #ffa300 !default;
+$warning: $orange !default;
+
 //
 
 $indigo:  #0b799b;
@@ -16,15 +19,13 @@ $primary: $indigo;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Anton|PT+Sans+Narrow');
 // Raden buttons
 $btn-border-radius:           none;
 $btn-border-radius-lg:        none;
 $btn-border-radius-sm:        none;
 
 // Navigatie
-
-
-
-
+//
+// Dropdown menu container and contents.
 

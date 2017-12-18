@@ -1,3 +1,99 @@
 @import
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Teko');// tekst
+
+//tekst
+h1{
+  font-family: 'Teko', sans-serif;
+}
+h2{
+  color: #ffa300;
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+}
+h3{
+  color:white;
+  font-family: 'News Cycle', sans-serif;
+  font-size:40px;
+}
+h4{
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+}
+p{
+  font-family: 'News Cycle', sans-serif;
+  font-size: 20px;
+}
+.witte-tekst{
+  font-family: 'News Cycle', sans-serif;
+  font-size: 20px;
+  color: white; 
+}
+
+  // header
+.header{
+    background: no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+// Button - en +
+.count-input {
+  position: relative;
+  width: 100%;
+  max-width: 100px;
+  margin: 10px 0;
+}
+.count-input input {
+  width: 100%;
+  height: 36.92307692px;
+  border: 1px solid #0b799b;
+  border-radius: 2px;
+  background: none;
+  text-align: center;
+  color: #0b799b;
+}
+.count-input input:focus {
+  outline: none;
+}
+.count-input .incr-btn {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+  top: 50%;
+  right: 0;
+  margin-top: -15px;
+  text-decoration:none;
+}
+.count-input .incr-btn:first-child {
+  right: auto;
+  left: 0;
+  top: 46%;
+}
+
+//jumbotrons
+.donkerblauw{
+  background-color: #045c70;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px #a5a5a5;
+}
+
+.lichtblauw{
+  background-color: #2da6ba;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px #a5a5a5;
+}
+
+//iconen
+.iconen{
+  color: white;
+  padding-right: 20px;
+}
