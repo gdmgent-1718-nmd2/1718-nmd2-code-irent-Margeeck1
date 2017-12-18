@@ -6,6 +6,8 @@
 //tekst
 h1{
   font-family: 'Teko', sans-serif;
+  color: #0b799b;
+  font-size: 75px;
 }
 h2{
   color: #ffa300;
@@ -28,11 +30,11 @@ p{
 }
 .witte-tekst{
   font-family: 'News Cycle', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   color: white; 
 }
 
-  // header
+  //header
 .header{
     background: no-repeat center center;
     background-size: cover;
@@ -40,7 +42,12 @@ p{
     width: 100%;
 }
 
-// Button - en +
+//footer
+.footer{
+  margin-top: 30px;
+}
+
+//button - en +
 .count-input {
   position: relative;
   width: 100%;
@@ -71,7 +78,7 @@ p{
   top: 50%;
   right: 0;
   margin-top: -15px;
-  text-decoration:none;
+  text-decoration: none;
 }
 .count-input .incr-btn:first-child {
   right: auto;
@@ -96,4 +103,90 @@ p{
 .iconen{
   color: white;
   padding-right: 20px;
+}
+
+//button
+.btn{
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+  float: right; //buttons staan nu omgekeerd
+}
+
+//afbeeldingen
+.foto1{
+  background: url(../../images/foto1.1.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+}
+
+//kalender
+ul {list-style-type: none;}
+body {font-family: 'News Cycle', sans-serif;}
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #0b799b;
+    text-align: center;
+}
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #0b799b;
+    color: white !important
+}
+
+//navigatie
+.nav{
+  font-size: 20px;
+  color: #ffa300;
 }

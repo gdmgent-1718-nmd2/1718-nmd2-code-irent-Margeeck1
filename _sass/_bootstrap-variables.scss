@@ -14,8 +14,8 @@ $warning: $orange !default;
 $indigo:  #0b799b;
 $primary: $indigo;
 
-
-// Fonts
+@import url('https://fonts.googleapis.com/css?family=News+Cycle');
+$font-family: 'News Cycle', sans-serif;
 //
 // Font, line-height, and color for body text, headings, and more.
 
