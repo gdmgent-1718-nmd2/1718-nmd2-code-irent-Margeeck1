@@ -1,7 +1,9 @@
+
+<div class="container">
 <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between nav">
-    <div class="container">
-        <div class="row">
+    
             <!-- websitelogo -->
+            <a class="navbar-brand" href="#">Submyrine</a>
 
             
             
@@ -17,7 +19,7 @@
                 {% for link in links %}
                     {% assign class = nil %}
                     {% if page.url contains link.url %}
-                        {% assign class = 'active' %}
+                        {% assign class = ' active' %}
                     {% endif %}
                     {% if link.sublinks %}
                         <li class="nav-item dropdown {{ class }}">
@@ -38,6 +40,6 @@
                 {% endfor %}
             </ul>
             </div>
-        </div>
-    </div>
+       
  </nav>
+</div>

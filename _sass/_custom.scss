@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Teko');// tekst
+
+//tekst
+h1{
+  font-family: 'Teko', sans-serif;
+  color: #0b799b;
+  font-size: 75px;
+  
+}
+h2{
+  color: #ffa300;
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+h3{
+  color:white;
+  font-family: 'News Cycle', sans-serif;
+  font-size:40px;
+}
+h4{
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+}
+p{
+  font-family: 'News Cycle', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.witte-tekst{
+  font-family: 'News Cycle', sans-serif;
+  font-size: 15px;
+  color: white; 
+}
+.text-center{
+    text-align: center;
+}
+
+  //header
+.header{
+    background: no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+//footer
+.footer{
+  margin-top: 30px;
+}
+
+//button - en +
+.count-input {
+  position: relative;
+  width: 100%;
+  max-width: 100px;
+  margin: 10px auto;
+}
+.count-input input {
+  width: 100%;
+  height: 36.92307692px;
+  border: 1px solid #0b799b;
+  border-radius: 2px;
+  background: none;
+  text-align: center;
+  color: #0b799b;
+}
+.count-input input:focus {
+  outline: none;
+}
+.count-input .incr-btn {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+  top: 50%;
+  right: 0;
+  margin-top: -15px;
+  text-decoration: none;
+}
+.count-input .incr-btn:first-child {
+  right: auto;
+  left: 0;
+  top: 46%;
+}
+
+//jumbotrons
+.donkerblauw{
+  background-color: #045c70;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px #a5a5a5;
+}
+
+.lichtblauw{
+  background-color: #2da6ba;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px #a5a5a5;
+}
+
+//iconen
+.iconen{
+  color: white;
+  padding-right: 20px;
+}
+
+//button
+.btn{
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.btn-jumbo {
+    color: #FFF;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'News Cycle', sans-serif;
+    font-size:40px;
+    width: 100%;
+    height: 150px
+}
+.btn-jumbo:hover {
+    color: #FFF;
+    color:white;
+    font-family: 'News Cycle', sans-serif;
+    font-size:40px;
+    text-decoration: none;
+}
+
+//afbeeldingen
+.foto1{
+  background: url(../../images/foto1.1.jpg) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+}
+
+//kalender
+ul {list-style-type: none;}
+body {font-family: 'News Cycle', sans-serif;}
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #0b799b;
+    text-align: center;
+}
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #0b799b;
+    color: white !important
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    h1{
+        font-family: 'Teko', sans-serif;
+        color: #0b799b;
+        font-size: 75px;
+        
+      }
+      h2{
+        text-align: left;
+      }
+      p{
+        text-align: left;
+      }
+      .witte-tekst{
+        font-family: 'News Cycle', sans-serif;
+        font-size: 15px;
+        color: white; 
+      }
+      .btn-jumbo {
+        height: 230px
+      }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

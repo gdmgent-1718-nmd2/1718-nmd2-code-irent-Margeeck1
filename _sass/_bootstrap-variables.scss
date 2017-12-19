@@ -9,10 +9,14 @@
 $orange:  #ffa300 !default;
 $warning: $orange !default;
 
+$blue:    #0b799b !default;
+$primary: $blue !default;
+
+$white:    #fff !default;
+$light:   $white !default;
+
 //
 
-$indigo:  #0b799b;
-$primary: $indigo;
 
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
 $font-family: 'News Cycle', sans-serif;
@@ -26,6 +30,12 @@ $btn-border-radius-lg:        none;
 $btn-border-radius-sm:        none;
 
 // Navigatie
-//
+$navbar-light-color:                $primary !default;
+$navbar-light-hover-color:          $warning !default;
+$navbar-light-active-color:         $warning !default;
+$navbar-light-toggler-border-color: none !default;
+
+
+
 // Dropdown menu container and contents.
 
