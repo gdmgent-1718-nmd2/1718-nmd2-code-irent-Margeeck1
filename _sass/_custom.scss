@@ -36,13 +36,20 @@ p{
 .text-center{
     text-align: center;
 }
-
+.vhvw{
+  font-size: 40px;
+}
   //header
 .header{
     background: no-repeat center center;
     background-size: cover;
     height: 100%;
     width: 100%;
+}
+// icoon
+.icoon {
+  margin-right:30px;
+  margin-top:5px;
 }
 
 //footer
@@ -111,7 +118,7 @@ p{
 //button
 .btn{
   margin-bottom: 50px;
-  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 10px;
 }
 .btn-jumbo {
