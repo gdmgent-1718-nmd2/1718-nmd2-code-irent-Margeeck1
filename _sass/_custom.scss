@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=News+Cycle|Teko');// tekst
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Teko');
 
 //tekst
 h1{
@@ -129,7 +129,8 @@ p{
     font-family: 'News Cycle', sans-serif;
     font-size:40px;
     width: 100%;
-    height: 150px
+    height: 150px;
+    padding: 15px;
 }
 .btn-jumbo:hover {
     color: #FFF;
@@ -144,6 +145,12 @@ p{
   background: url(../../images/foto1.1.jpg) no-repeat center center;
   background-size: cover;
   width: 100%;
+}
+
+//Google
+.google{
+  display:flex;
+  text-align: center
 }
 
 //kalender
@@ -241,7 +248,8 @@ body {font-family: 'News Cycle', sans-serif;}
         color: white; 
       }
       .btn-jumbo {
-        height: 230px
+        height: 230px;
+        padding: 55px;
       }
  }
 
