@@ -30,17 +30,8 @@
     padding-top: 20px;
 }
 
-//jumbotrons
-.donkerblauw{
-    background-color: #045c70;
-    margin-top: 20px;
-    box-shadow: 5px 5px 5px #a5a5a5;
-}
-
-.lichtblauw{
-    background-color: #2da6ba;
-    margin-top: 20px;
-    box-shadow: 5px 5px 5px #a5a5a5;
+.justify-content-end{
+    padding-right:0px;
 }
 
 //afbeeldingen
@@ -113,10 +104,6 @@ a:hover{
         font-family: 'News Cycle', sans-serif;
         font-size: 15px;
         color: white; 
-      }
-      .btn-jumbo {
-        height: 230px;
-        padding: 55px;
       }
  }
 
