@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Teko');
+
+//tekst
+h1{
+    font-family: 'Teko', sans-serif;
+    color: #0b799b;
+    font-size: 75px;
+  
+}
+h2{
+    color: #ffa300;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    color:white;
+    font-family: 'News Cycle', sans-serif;
+    font-size:40px;
+}
+h4{
+    color: white;
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+}
+p{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.witte-tekst{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+    color: white; 
+}
+.text-center{
+    text-align: center;
+}
+.vhvw{
+    font-size: 40px
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    h1{
+        font-family: 'Teko', sans-serif;
+        color: #0b799b;
+        font-size: 75px;
+        
+      }
+      h2{
+        text-align: left;
+      }
+      p{
+        text-align: left;
+      }
+      .witte-tekst{
+        font-family: 'News Cycle', sans-serif;
+        font-size: 15px;
+        color: white; 
+      }
+      .btn-jumbo {
+        height: 230px;
+        padding: 55px;
+      }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

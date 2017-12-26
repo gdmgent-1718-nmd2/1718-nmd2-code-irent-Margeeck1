@@ -1,45 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=News+Cycle|Teko');
 
-//tekst
-h1{
-  font-family: 'Teko', sans-serif;
-  color: #0b799b;
-  font-size: 75px;
-  
-}
-h2{
-  color: #ffa300;
-  font-family: 'Teko', sans-serif;
-  font-size: 50px;
-  text-align: center;
-}
-h3{
-  color:white;
-  font-family: 'News Cycle', sans-serif;
-  font-size:40px;
-}
-h4{
-  color: white;
-  font-family: 'Teko', sans-serif;
-  font-size: 50px;
-}
-p{
-  font-family: 'News Cycle', sans-serif;
-  font-size: 20px;
-  text-align: center;
-}
-.witte-tekst{
-  font-family: 'News Cycle', sans-serif;
-  font-size: 15px;
-  color: white; 
-}
-.text-center{
-    text-align: center;
-}
-.vhvw{
-  font-size: 40px;
-}
-  //header
+//header
 .header{
     background: no-repeat center center;
     background-size: cover;
@@ -48,177 +9,83 @@ p{
 }
 // icoon
 .icoon {
-  margin-right:30px;
-  margin-top:5px;
+    margin-right:30px;
+    margin-top:5px;
+    color: white;
+}
+.iconen{
+     color: white;
+    padding-right: 20px;
+}
+.icooncontact{
+    margin-right:30px;
+    margin-top:5px;
+    color:#0b799b;
 }
 
 //footer
 .footer{
-  margin-top: 30px;
-}
-
-//button - en +
-.count-input {
-  position: relative;
-  width: 100%;
-  max-width: 100px;
-  margin: 10px auto;
-}
-.count-input input {
-  width: 100%;
-  height: 36.92307692px;
-  border: 1px solid #0b799b;
-  border-radius: 2px;
-  background: none;
-  text-align: center;
-  color: #0b799b;
-}
-.count-input input:focus {
-  outline: none;
-}
-.count-input .incr-btn {
-  display: block;
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  font-size: 26px;
-  font-weight: 300;
-  text-align: center;
-  line-height: 30px;
-  top: 50%;
-  right: 0;
-  margin-top: -15px;
-  text-decoration: none;
-}
-.count-input .incr-btn:first-child {
-  right: auto;
-  left: 0;
-  top: 46%;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 //jumbotrons
 .donkerblauw{
-  background-color: #045c70;
-  margin-top: 20px;
-  box-shadow: 5px 5px 5px #a5a5a5;
+    background-color: #045c70;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px #a5a5a5;
 }
 
 .lichtblauw{
-  background-color: #2da6ba;
-  margin-top: 20px;
-  box-shadow: 5px 5px 5px #a5a5a5;
-}
-
-//iconen
-.iconen{
-  color: white;
-  padding-right: 20px;
-}
-
-//button
-.btn{
-  margin-bottom: 50px;
-  margin-right: 20px;
-  margin-top: 10px;
-}
-.btn-jumbo {
-    color: #FFF;
-    display: block;
-    text-align: center;
-    color: white;
-    font-family: 'News Cycle', sans-serif;
-    font-size:40px;
-    width: 100%;
-    height: 150px;
-    padding: 15px;
-}
-.btn-jumbo:hover {
-    color: #FFF;
-    color:white;
-    font-family: 'News Cycle', sans-serif;
-    font-size:40px;
-    text-decoration: none;
+    background-color: #2da6ba;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px #a5a5a5;
 }
 
 //afbeeldingen
 .foto1{
-  background: url(../../images/foto1.1.jpg) no-repeat center center;
-  background-size: cover;
-  width: 100%;
+    background: url(../../images/foto1.1.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
 }
 
 //Google
 .google{
-  display:flex;
-  text-align: center
-}
-
-//kalender
-ul {list-style-type: none;}
-body {font-family: 'News Cycle', sans-serif;}
-/* Month header */
-.month {
-    padding: 70px 25px;
-    width: 100%;
-    background: #0b799b;
+    display:flex;
     text-align: center;
 }
-/* Month list */
-.month ul {
-    margin: 0;
-    padding: 0;
+
+//breadcrumb
+.breadcrumb{
+    font-size: 16pxpx;
+    background: none;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto
 }
-.month ul li {
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+.breadcrumb-item.active {
+    color: #0b799b;
 }
-/* Previous button inside month header */
-.month .prev {
-    float: left;
-    padding-top: 10px;
-}
-/* Next button */
-.month .next {
-    float: right;
-    padding-top: 10px;
-}
-/* Weekdays (Mon-Sun) */
-.weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color:#ddd;
-}
-.weekdays li {
+.breadcrumb-item + .breadcrumb-item::before {
     display: inline-block;
-    width: 13.6%;
-    color: #666;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #0b799b;
+    content: ">";
+}
+a {
+    color: #ffa300;
+    text-decoration: none;
+    background-color: transparent;
+    margin: auto;
     text-align: center;
 }
-/* Days (1-31) */
-.days {
-    padding: 10px 0;
-    background: #eee;
-    margin: 0;
+a:hover{
+    color: #ffa300;
+    text-decoration: none;
+    background-color: transparent;
 }
-.days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 13.6%;
-    text-align: center;
-    margin-bottom: 5px;
-    font-size:12px;
-    color: #777;
-}
-/* Highlight the "current" day */
-.days li .active {
-    padding: 5px;
-    background: #0b799b;
-    color: white !important
-}
-
-
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
