@@ -6,6 +6,7 @@
     width: 100%;
     max-width: 100px;
     margin: 10px auto;
+    margin-bottom:30px;
 }
 
 .count-input input {
@@ -38,6 +39,7 @@
     text-decoration: none;
     color: white;
 }
+
 .count-input .incr-btn:first-child {
     right: auto;
     left: 0;
@@ -45,9 +47,9 @@
 }
 
 .btn{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
 .btn-jumbo {
@@ -115,6 +117,11 @@
       .btn-jumbo {
         height: 230px;
         padding: 55px;
+      }
+      .btn{
+        margin-bottom: 30px;
+        margin-right: 20px;
+        margin-top: 10px;
       }
  }
 
