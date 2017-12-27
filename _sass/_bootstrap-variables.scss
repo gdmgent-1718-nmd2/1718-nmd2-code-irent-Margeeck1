@@ -4,7 +4,6 @@
 //
 // See _vendor/bootstrap/scss/_variables.scss
 
-//
 // Color system
 $orange:  #ffa300 !default;
 $warning: $orange !default;
@@ -15,13 +14,8 @@ $primary: $blue !default;
 $white:    #fff !default;
 $light:   $white !default;
 
-//
-
-
 @import url('https://fonts.googleapis.com/css?family=News+Cycle');
 $font-family: 'News Cycle', sans-serif;
-//
-// Font, line-height, and color for body text, headings, and more.
 
 @import url('https://fonts.googleapis.com/css?family=Anton|PT+Sans+Narrow');
 // Raden buttons
@@ -34,8 +28,3 @@ $navbar-light-color:                $primary !default;
 $navbar-light-hover-color:          $warning !default;
 $navbar-light-active-color:         $warning !default;
 $navbar-light-toggler-border-color: none !default;
-
-
-
-// Dropdown menu container and contents.
-

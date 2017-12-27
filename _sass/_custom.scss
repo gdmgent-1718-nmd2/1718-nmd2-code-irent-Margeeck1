@@ -7,16 +7,19 @@
     height: 100%;
     width: 100%;
 }
+
 // icoon
 .icoon {
     margin-right:30px;
     margin-top:5px;
     color: white;
 }
+
 .iconen{
      color: white;
     padding-right: 20px;
 }
+
 .icooncontact{
     margin-top:5px;
     color:#0b799b;
@@ -31,10 +34,11 @@
 
 //afbeeldingen
 .foto1{
-    background: url(../../images/foto1.1.jpg) no-repeat center center;
+    background: url(../../images/halvefoto.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
 }
+
 .partners{
     margin-bottom:30px;
 }
@@ -53,9 +57,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .breadcrumb-item.active {
     color: #0b799b;
 }
+
 .breadcrumb-item + .breadcrumb-item::before {
     display: inline-block;
     padding-right: 0.5rem;
@@ -63,6 +69,7 @@
     color: #0b799b;
     content: ">";
 }
+
 a {
     color: #ffa300;
     text-decoration: none;
@@ -70,11 +77,13 @@ a {
     margin: auto;
     text-align: center;
 }
+
 a:hover{
     color: #ffa300;
     text-decoration: none;
     background-color: transparent;
 }
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
@@ -90,7 +99,6 @@ a:hover{
         font-family: 'Teko', sans-serif;
         color: #0b799b;
         font-size: 75px;
-        
       }
       h2{
         text-align: left;

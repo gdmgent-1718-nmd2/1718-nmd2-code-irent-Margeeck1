@@ -3,6 +3,7 @@
 //kalender
 ul {list-style-type: none;}
 body {font-family: 'News Cycle', sans-serif;}
+
 /* Month header */
 .month {
     padding: 70px 25px;
@@ -10,39 +11,46 @@ body {font-family: 'News Cycle', sans-serif;}
     background: #0b799b;
     text-align: center;
 }
+
 /* Month list */
 .month ul {
     margin: 0;
     padding: 0;
 }
+
 .month ul li {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
 /* Previous button inside month header */
 .month .prev {
     float: left;
     padding-top: 10px;
 }
+
 /* Next button */
 .month .next {
     float: right;
     padding-top: 10px;
 }
+
 /* Weekdays (Mon-Sun) */
 .weekdays {
     margin: 0;
     padding: 10px 0;
     background-color:#ddd;
 }
+
 .weekdays li {
     display: inline-block;
     width: 12.6%;
     color: #666;
     text-align: center;
 }
+
 /* Days (1-31) */
 .days {
     padding: 10px 0;
@@ -50,6 +58,7 @@ body {font-family: 'News Cycle', sans-serif;}
     margin: 0;
     margin-bottom:30px;
 }
+
 .days li {
     list-style-type: none;
     display: inline-block;
@@ -65,9 +74,11 @@ body {font-family: 'News Cycle', sans-serif;}
     background: #0b799b;
     color: white !important
 }
+
 .optie{
     margin-bottom:20px;
 }
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
