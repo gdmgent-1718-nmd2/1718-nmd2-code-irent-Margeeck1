@@ -36,15 +36,7 @@
     width: 100%;
 }
 .partners{
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
     margin-bottom:30px;
-}
-.partners:hover{
-    -webkit-filter: blur(0);
-	filter: blur(0);
 }
 
 //Google
@@ -113,6 +105,16 @@ a:hover{
       }
       .justify-content-end{
         padding-right:0px;
+    }
+    .partners{
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .partners:hover{
+        -webkit-filter: blur(0);
+        filter: blur(0);
     }
  }
 
