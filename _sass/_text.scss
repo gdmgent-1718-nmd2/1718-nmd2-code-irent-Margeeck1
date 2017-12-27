@@ -39,6 +39,9 @@ p{
 .vhvw{
     font-size: 40px
 }
+#titelsociaal{
+    text-align: center;
+}
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
@@ -51,12 +54,6 @@ p{
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
-    h1{
-        font-family: 'Teko', sans-serif;
-        color: #0b799b;
-        font-size: 75px;
-        
-      }
       h2{
         text-align: left;
       }
