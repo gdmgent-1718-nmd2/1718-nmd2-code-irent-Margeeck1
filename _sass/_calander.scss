@@ -48,6 +48,7 @@ body {font-family: 'News Cycle', sans-serif;}
     padding: 10px 0;
     background: #eee;
     margin: 0;
+    margin-bottom:30px;
 }
 .days li {
     list-style-type: none;
@@ -64,7 +65,9 @@ body {font-family: 'News Cycle', sans-serif;}
     background: #0b799b;
     color: white !important
 }
-
+.optie{
+    margin-bottom:20px;
+}
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 

@@ -18,7 +18,6 @@
     padding-right: 20px;
 }
 .icooncontact{
-    margin-right:30px;
     margin-top:5px;
     color:#0b799b;
 }
@@ -30,15 +29,22 @@
     padding-top: 20px;
 }
 
-.justify-content-end{
-    padding-right:0px;
-}
-
 //afbeeldingen
 .foto1{
     background: url(../../images/foto1.1.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
+}
+.partners{
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin-bottom:30px;
+}
+.partners:hover{
+    -webkit-filter: blur(0);
+	filter: blur(0);
 }
 
 //Google
@@ -53,7 +59,7 @@
     background: none;
     background-color: white;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 .breadcrumb-item.active {
     color: #0b799b;
@@ -105,6 +111,9 @@ a:hover{
         font-size: 15px;
         color: white; 
       }
+      .justify-content-end{
+        padding-right:0px;
+    }
  }
 
 // Extra large devices (large desktops, 1200px and up)
