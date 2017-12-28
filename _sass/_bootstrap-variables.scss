@@ -1,9 +1,3 @@
-// Custom Variables
-//
-// Put variables overrides here.
-//
-// See _vendor/bootstrap/scss/_variables.scss
-
 // Color system
 $orange:  #ffa300 !default;
 $warning: $orange !default;
@@ -18,6 +12,7 @@ $light:   $white !default;
 $font-family: 'News Cycle', sans-serif;
 
 @import url('https://fonts.googleapis.com/css?family=Anton|PT+Sans+Narrow');
+
 // Raden buttons
 $btn-border-radius:           none;
 $btn-border-radius-lg:        none;

@@ -1,0 +1,79 @@
+//breadcrumb
+.breadcrumb{
+    font-size: 16pxpx;
+    background: none;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.breadcrumb-item.active {
+    color: #0b799b;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #0b799b;
+    content: ">";
+}
+
+a {
+    color: #ffa300;
+    text-decoration: none;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+}
+
+a:hover{
+    color: #ffa300;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    h1{
+        font-family: 'Teko', sans-serif;
+        color: #0b799b;
+        font-size: 75px;
+    }
+    h2{
+        text-align: left;
+      }
+    p{
+        text-align: left;
+    }
+    .witte-tekst{
+        font-family: 'News Cycle', sans-serif;
+        font-size: 15px;
+        color: white; 
+    }
+    .justify-content-end{
+        padding-right:0px;
+    }
+    .partners{
+        -webkit-filter: blur(3px);
+        filter: blur(3px);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .partners:hover{
+        -webkit-filter: blur(0);
+        filter: blur(0);
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
